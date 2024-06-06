@@ -1,0 +1,41 @@
+.landing{
+    width: 100%;
+    min-height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs{
+    width: 100%;
+    height: auto;
+    margin: 0px 30px 30px 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.inputs input, select {
+    padding: 10px ;
+    border-radius: 50px;
+    border: black 1px solid;
+}
+
+.inputs select{
+    padding: 10px 30px;
+}
+
+
+#app{
+    gap: 16px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    min-height: 90%;
+    flex-wrap: wrap;
+}
+

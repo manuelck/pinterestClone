@@ -1,0 +1,140 @@
+#logo{
+    width: 2.5rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+
+nav{
+    display: flex;
+    padding: 1rem 5rem;
+    width: 100%;
+    gap: 1rem;
+}
+
+
+.navlist{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.navlist ul{
+    display: flex;
+    gap: 2rem;
+
+}
+
+.navlist ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+#gift{
+    cursor: pointer;
+    transition: 0.25s;
+}
+#gift:hover{
+    stroke: #cb1f27;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex: 2;
+}
+
+.icons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1;
+    
+}
+
+.search button{
+    background-color: #cb1f27;
+    width: 30px;
+    height: 30px;
+    border-radius:  50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.search button svg{
+    stroke: white ;
+}
+
+.search input{
+    min-width: 200px;
+    max-width: 300px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+
+.search-mbl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex: 2;
+    display: none;
+}
+
+.search-mbl button{
+    background-color: #cb1f27;
+    width: 30px;
+    height: 30px;
+    border-radius:  50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.search-mbl button svg{
+    stroke: white ;
+}
+
+.search-mbl input{
+    min-width: 200px;
+    max-width: 300px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+
+@media only screen and (max-width: 800px) {
+    .search-mbl{
+        display:flex;
+    }
+
+    .search{
+        display:none;
+    }
+
+    .icons{
+        display: none;  
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 1rem;
+    }
+    .navlist ul{
+        display: flex;
+        gap: 1rem;
+    
+    }
+  }

@@ -1,0 +1,45 @@
+footer{
+    display: flex;
+    width: 100%;
+    padding: 3rem 3rem 3rem 3rem ;
+    border-top: rgba(0, 0, 0, 0.075) solid 1px;
+    margin-top: 30px;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left h1,h2{
+    padding: 0;
+    margin: 0;
+}
+
+.left h2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    flex-direction: column;
+}
+
+.right p {
+    font-weight: 600;
+}
+
+.socials{
+    display: flex;
+    gap: 16px;
+}
+
+.socials img{
+    cursor: pointer;
+}
